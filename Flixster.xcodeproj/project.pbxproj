@@ -50,7 +50,6 @@
 		4853F8C8299C27EB007BE490 = {
 			isa = PBXGroup;
 			children = (
-				4853F8E8299C2803007BE490 /* readme.md */,
 				4853F8D3299C27EB007BE490 /* Flixster */,
 				4853F8D2299C27EB007BE490 /* Products */,
 			);
@@ -67,6 +66,7 @@
 		4853F8D3299C27EB007BE490 /* Flixster */ = {
 			isa = PBXGroup;
 			children = (
+				4853F8E8299C2803007BE490 /* readme.md */,
 				4853F8EA299C2B10007BE490 /* Models */,
 				4853F8D4299C27EB007BE490 /* AppDelegate.swift */,
 				4853F8D6299C27EB007BE490 /* SceneDelegate.swift */,
