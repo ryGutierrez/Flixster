@@ -13,11 +13,12 @@
 		4853F8DC299C27EB007BE490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4853F8DA299C27EB007BE490 /* Main.storyboard */; };
 		4853F8DE299C27EC007BE490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4853F8DD299C27EC007BE490 /* Assets.xcassets */; };
 		4853F8E1299C27EC007BE490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4853F8DF299C27EC007BE490 /* LaunchScreen.storyboard */; };
-		4853F8E9299C2804007BE490 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 4853F8E8299C2803007BE490 /* readme.md */; };
 		4853F8EC299C2B24007BE490 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853F8EB299C2B24007BE490 /* Movie.swift */; };
 		4853F8EF299C32D8007BE490 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 4853F8EE299C32D8007BE490 /* Nuke */; };
 		4853F8F1299C330D007BE490 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853F8F0299C330D007BE490 /* MovieCell.swift */; };
 		48F821F9299ECB8100233870 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F821F8299ECB8100233870 /* DetailViewController.swift */; };
+		48F821FB299F02FC00233870 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 48F821FA299F02FC00233870 /* readme.md */; };
+		48F821FD299F034000233870 /* walkthrough.gif in Resources */ = {isa = PBXBuildFile; fileRef = 48F821FC299F034000233870 /* walkthrough.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +30,11 @@
 		4853F8DD299C27EC007BE490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4853F8E0299C27EC007BE490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4853F8E2299C27EC007BE490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4853F8E8299C2803007BE490 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		4853F8EB299C2B24007BE490 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		4853F8F0299C330D007BE490 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		48F821F8299ECB8100233870 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		48F821FA299F02FC00233870 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = SOURCE_ROOT; };
+		48F821FC299F034000233870 /* walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = walkthrough.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 		4853F8D3299C27EB007BE490 /* Flixster */ = {
 			isa = PBXGroup;
 			children = (
-				4853F8E8299C2803007BE490 /* readme.md */,
+				48F821FA299F02FC00233870 /* readme.md */,
 				4853F8EA299C2B10007BE490 /* Models */,
 				4853F8D4299C27EB007BE490 /* AppDelegate.swift */,
 				4853F8D6299C27EB007BE490 /* SceneDelegate.swift */,
@@ -77,6 +79,7 @@
 				4853F8E2299C27EC007BE490 /* Info.plist */,
 				4853F8F0299C330D007BE490 /* MovieCell.swift */,
 				48F821F8299ECB8100233870 /* DetailViewController.swift */,
+				48F821FC299F034000233870 /* walkthrough.gif */,
 			);
 			path = Flixster;
 			sourceTree = "<group>";
@@ -154,9 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4853F8E1299C27EC007BE490 /* LaunchScreen.storyboard in Resources */,
+				48F821FD299F034000233870 /* walkthrough.gif in Resources */,
 				4853F8DE299C27EC007BE490 /* Assets.xcassets in Resources */,
 				4853F8DC299C27EB007BE490 /* Main.storyboard in Resources */,
-				4853F8E9299C2804007BE490 /* readme.md in Resources */,
+				48F821FB299F02FC00233870 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,7 +12,6 @@ The following **required** functionality is completed:
 
 - [x] Users are able to see a customized app icon and launch screen
 - [x] Your app should work for any screen size and orientation using AutoLayout constraints
-  - [ ] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both, then erase this text
 - [x] Displays at least 5 different movies in a table view
 - [x] Can tap into detail view of movie with a full description, backdrop image, and title
  
@@ -31,7 +30,6 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/vDegC5U.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
