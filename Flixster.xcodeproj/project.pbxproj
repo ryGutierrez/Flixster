@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4804720029A80566004B4324 /* PosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480471FF29A80566004B4324 /* PosterViewController.swift */; };
 		4804720229A80852004B4324 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4804720129A80852004B4324 /* PosterCell.swift */; };
+		4804720429A816AE004B4324 /* walkthrough.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4804720329A816AE004B4324 /* walkthrough.gif */; };
 		4853F8D5299C27EB007BE490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853F8D4299C27EB007BE490 /* AppDelegate.swift */; };
 		4853F8D7299C27EB007BE490 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853F8D6299C27EB007BE490 /* SceneDelegate.swift */; };
 		4853F8D9299C27EB007BE490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853F8D8299C27EB007BE490 /* ViewController.swift */; };
@@ -20,12 +21,12 @@
 		4853F8F1299C330D007BE490 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4853F8F0299C330D007BE490 /* MovieCell.swift */; };
 		48F821F9299ECB8100233870 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F821F8299ECB8100233870 /* DetailViewController.swift */; };
 		48F821FB299F02FC00233870 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 48F821FA299F02FC00233870 /* readme.md */; };
-		48F821FD299F034000233870 /* walkthrough.gif in Resources */ = {isa = PBXBuildFile; fileRef = 48F821FC299F034000233870 /* walkthrough.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		480471FF29A80566004B4324 /* PosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterViewController.swift; sourceTree = "<group>"; };
 		4804720129A80852004B4324 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		4804720329A816AE004B4324 /* walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = walkthrough.gif; sourceTree = "<group>"; };
 		4853F8D1299C27EB007BE490 /* Flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4853F8D4299C27EB007BE490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4853F8D6299C27EB007BE490 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		4853F8F0299C330D007BE490 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		48F821F8299ECB8100233870 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		48F821FA299F02FC00233870 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = SOURCE_ROOT; };
-		48F821FC299F034000233870 /* walkthrough.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = walkthrough.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 				4853F8F0299C330D007BE490 /* MovieCell.swift */,
 				4804720129A80852004B4324 /* PosterCell.swift */,
 				48F821F8299ECB8100233870 /* DetailViewController.swift */,
-				48F821FC299F034000233870 /* walkthrough.gif */,
+				4804720329A816AE004B4324 /* walkthrough.gif */,
 			);
 			path = Flixster;
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4804720429A816AE004B4324 /* walkthrough.gif in Resources */,
 				4853F8E1299C27EC007BE490 /* LaunchScreen.storyboard in Resources */,
-				48F821FD299F034000233870 /* walkthrough.gif in Resources */,
 				4853F8DE299C27EC007BE490 /* Assets.xcassets in Resources */,
 				4853F8DC299C27EB007BE490 /* Main.storyboard in Resources */,
 				48F821FB299F02FC00233870 /* readme.md in Resources */,
