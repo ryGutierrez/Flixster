@@ -31,7 +31,7 @@ class MovieCell: UITableViewCell {
         overviewLabel.text = movie.overview
         
         // Load image async via Nuke library image loading helper method
-        Nuke.loadImage(with: movie.poster, into: posterImageView)
+        Nuke.loadImage(with: URL(string: "https://image.tmdb.org/t/p/w185"+movie.poster_path)!, into: posterImageView)
         
     }
 

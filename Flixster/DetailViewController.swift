@@ -22,12 +22,12 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Nuke.loadImage(with: movie.backdrop, into: backdropImageView)
+        Nuke.loadImage(with: URL(string: "https://image.tmdb.org/t/p/w1280"+movie.backdrop_path)!, into: backdropImageView)
         titleLabel.text = movie.title
-        voteAvgLabel.text = "Vote Average "+String(movie.voteAvg)
+        voteAvgLabel.text = "Vote Average "+String(movie.vote_average)
         overviewLabel.text = movie.overview
         popularityLabel.text = "Popularity "+String(movie.popularity)
-        votesLabel.text = "Votes "+String(movie.voteCount)
+        votesLabel.text = "Votes "+String(movie.vote_count)
     }
     
     

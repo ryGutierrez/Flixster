@@ -1,43 +1,37 @@
-# Project 2 - *Flixster*
+# Project 3 - *Flixter*
 
 Submitted by: **Ryan Gutierrez**
 
-**Flixter** is a movie browsing app that lists movies from the Movie Database API.
+**Flixter** is an app that introduces networking using the MovieDB API to fetch information about trending movies. 
 
-Time spent: **5** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] Users are able to see a customized app icon and launch screen
-- [x] Your app should work for any screen size and orientation using AutoLayout constraints
-- [x] Displays at least 5 different movies in a table view
-- [x] Can tap into detail view of movie with a full description, backdrop image, and title
+- [x] Implement network call and table view to display a list of movies currently playing (title, description, image)
+- [x] App has a collection view with the same list of movies
+- [x] Uses a tab bar controller to switch between collection view and table view screens
  
 The following **optional** features are implemented:
 
-- [ ] Unique UI changes, such as background, font/color changes, etc.
-- [ ] User implements a collection view
-- [ ] User implemenets tab bar controller with at least two screens
-
-The following **additional** features are implemented:
-
-- [x] Voting Average, count, and popularity listed for each movie.
-- [x] Scrollable content that clips off screen
+- [ ] Make an additional network call to another end-point.    
+- [x] Allow users to scroll when context items are off-screen (table view implemention)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
+<img src='https://imgur.com/0nHZEnB' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
-Getting the main content holding the detailed information for the movie to be scrollable proved to be the hardest part of the project. 
+My biggest challenge during development was correcting the layout of the posters tab and the collection view cells so that each poster was positioned closely to eachother.
 
 ## License
 
-    Copyright 2022 Ryan Gutierrez
+    Copyright [2023] [Ryan Gutierrez]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
